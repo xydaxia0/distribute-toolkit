@@ -1,0 +1,10 @@
+*svn*
+*iml
+.classpath
+.project
+.settings/
+build/
+target/
+.mymetadata
+bin/
+.idea/
