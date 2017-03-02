@@ -1,305 +1,1511 @@
-2017-03-01 18:19:08.110 [pool-1-thread-5] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
-java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/111
+2017-03-02 10:46:34.552 [pool-1-thread-2] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
 	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
-	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:72) ~[classes/:na]
-	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:50) [test-classes/:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) [test-classes/:na]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
-2017-03-01 18:19:08.110 [pool-1-thread-10] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
-java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/111
+2017-03-02 10:46:34.552 [pool-1-thread-5] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
 	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
-	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:72) ~[classes/:na]
-	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:50) [test-classes/:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) [test-classes/:na]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
-2017-03-01 18:19:08.110 [pool-1-thread-1] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
-java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/111
+2017-03-02 10:46:34.552 [pool-1-thread-8] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
 	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
-	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:72) ~[classes/:na]
-	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:50) [test-classes/:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) [test-classes/:na]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
-2017-03-01 18:19:08.110 [pool-1-thread-4] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
-java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/111
+2017-03-02 10:46:34.552 [pool-1-thread-9] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
 	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
-	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:72) ~[classes/:na]
-	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:50) [test-classes/:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) [test-classes/:na]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
-2017-03-01 18:19:08.111 [pool-1-thread-5] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
-java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/111
+2017-03-02 10:46:34.554 [pool-1-thread-2] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
 	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
-	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:72) ~[classes/:na]
-	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:50) ~[test-classes/:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) ~[test-classes/:na]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
-2017-03-01 18:19:08.111 [pool-1-thread-10] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
-java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/111
+2017-03-02 10:46:34.554 [pool-1-thread-5] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
 	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
-	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:72) ~[classes/:na]
-	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:50) ~[test-classes/:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) ~[test-classes/:na]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
-2017-03-01 18:19:08.111 [pool-1-thread-1] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
-java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/111
+2017-03-02 10:46:34.554 [pool-1-thread-8] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
 	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
-	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:72) ~[classes/:na]
-	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:50) ~[test-classes/:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) ~[test-classes/:na]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
-2017-03-01 18:19:08.111 [pool-1-thread-4] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
-java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/111
+2017-03-02 10:46:34.554 [pool-1-thread-9] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
 	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
-	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:72) ~[classes/:na]
-	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:50) ~[test-classes/:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) ~[test-classes/:na]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
-2017-03-01 18:19:08.117 [pool-1-thread-7] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
-java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/111
+2017-03-02 10:46:34.559 [pool-1-thread-3] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
 	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
-	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:72) ~[classes/:na]
-	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:50) [test-classes/:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) [test-classes/:na]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
-2017-03-01 18:19:08.118 [pool-1-thread-7] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
-java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/111
+2017-03-02 10:46:34.559 [pool-1-thread-3] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
 	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
-	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:72) ~[classes/:na]
-	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:50) ~[test-classes/:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) ~[test-classes/:na]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
-2017-03-01 18:19:08.123 [pool-1-thread-2] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
-java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/111
+2017-03-02 10:46:34.571 [pool-1-thread-10] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
 	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
-	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:72) ~[classes/:na]
-	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:50) [test-classes/:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) [test-classes/:na]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
-2017-03-01 18:19:08.124 [pool-1-thread-2] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
-java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/111
+2017-03-02 10:46:34.572 [pool-1-thread-10] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
 	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
-	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:72) ~[classes/:na]
-	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:50) ~[test-classes/:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) ~[test-classes/:na]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
-2017-03-01 18:19:08.130 [pool-1-thread-3] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
-java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/111
+2017-03-02 10:46:34.581 [pool-1-thread-7] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
 	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
-	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:72) ~[classes/:na]
-	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:50) [test-classes/:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) [test-classes/:na]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
-2017-03-01 18:19:08.131 [pool-1-thread-3] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
-java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/111
+2017-03-02 10:46:34.582 [pool-1-thread-7] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
 	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
-	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:72) ~[classes/:na]
-	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:50) ~[test-classes/:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) ~[test-classes/:na]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
-2017-03-01 18:19:08.140 [pool-1-thread-9] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
-java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/111
+2017-03-02 10:46:34.591 [pool-1-thread-6] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
 	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
-	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:72) ~[classes/:na]
-	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:50) [test-classes/:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) [test-classes/:na]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
-2017-03-01 18:19:08.140 [pool-1-thread-9] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
-java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/111
+2017-03-02 10:46:34.592 [pool-1-thread-6] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
 	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
-	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:72) ~[classes/:na]
-	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:50) ~[test-classes/:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) ~[test-classes/:na]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
-2017-03-01 18:19:08.142 [pool-1-thread-8] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
-java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/111
+2017-03-02 10:48:24.495 [pool-1-thread-8] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
 	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
-	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:72) ~[classes/:na]
-	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:50) [test-classes/:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) [test-classes/:na]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
-2017-03-01 18:19:08.144 [pool-1-thread-8] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
-java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/111
+2017-03-02 10:48:24.495 [pool-1-thread-5] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
 	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
-	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:72) ~[classes/:na]
-	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:50) ~[test-classes/:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) [test-classes/:na]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
-2017-03-01 18:24:08.392 [pool-1-thread-2] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
-java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/111
+2017-03-02 10:48:24.496 [pool-1-thread-5] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
 	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
-	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:72) ~[classes/:na]
-	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:50) [test-classes/:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) ~[test-classes/:na]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
-2017-03-01 18:24:08.392 [pool-1-thread-1] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
-java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/111
+2017-03-02 10:48:24.496 [pool-1-thread-8] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
 	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
-	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:72) ~[classes/:na]
-	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:50) [test-classes/:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) ~[test-classes/:na]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
-2017-03-01 18:24:08.392 [pool-1-thread-3] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
-java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/111
+2017-03-02 10:48:24.507 [pool-1-thread-6] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
 	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
-	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:72) ~[classes/:na]
-	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:50) [test-classes/:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) [test-classes/:na]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
-2017-03-01 18:24:08.393 [pool-1-thread-2] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
-java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/111
+2017-03-02 10:48:24.508 [pool-1-thread-6] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
 	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
-	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:72) ~[classes/:na]
-	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:50) ~[test-classes/:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) ~[test-classes/:na]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
-2017-03-01 18:24:08.393 [pool-1-thread-1] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
-java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/111
+2017-03-02 10:48:24.511 [pool-1-thread-2] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
 	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
-	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:72) ~[classes/:na]
-	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:50) ~[test-classes/:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) [test-classes/:na]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
-2017-03-01 18:24:08.393 [pool-1-thread-3] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
-java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/111
+2017-03-02 10:48:24.511 [pool-1-thread-2] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
 	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
-	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:72) ~[classes/:na]
-	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:50) ~[test-classes/:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) ~[test-classes/:na]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
-2017-03-01 18:24:08.395 [pool-1-thread-6] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
-java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/111
+2017-03-02 10:48:24.512 [pool-1-thread-10] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
 	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
-	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:72) ~[classes/:na]
-	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:50) [test-classes/:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) [test-classes/:na]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
-2017-03-01 18:24:08.396 [pool-1-thread-6] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
-java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/111
+2017-03-02 10:48:24.512 [pool-1-thread-10] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
 	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
-	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:72) ~[classes/:na]
-	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:50) ~[test-classes/:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) ~[test-classes/:na]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
-2017-03-01 18:24:08.409 [pool-1-thread-8] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
-java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/111
+2017-03-02 10:48:24.519 [pool-1-thread-3] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
 	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
-	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:72) ~[classes/:na]
-	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:50) [test-classes/:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) [test-classes/:na]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
-2017-03-01 18:24:08.410 [pool-1-thread-8] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
-java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/111
+2017-03-02 10:48:24.520 [pool-1-thread-3] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
 	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
-	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:72) ~[classes/:na]
-	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:50) ~[test-classes/:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) ~[test-classes/:na]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
-2017-03-01 18:24:08.417 [pool-1-thread-9] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
-java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/111
+2017-03-02 10:48:24.524 [pool-1-thread-7] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
 	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
-	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:72) ~[classes/:na]
-	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:50) [test-classes/:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) [test-classes/:na]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
-2017-03-01 18:24:08.418 [pool-1-thread-9] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
-java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/111
+2017-03-02 10:48:24.525 [pool-1-thread-7] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
 	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
-	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:72) ~[classes/:na]
-	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:50) ~[test-classes/:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) ~[test-classes/:na]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
-2017-03-01 18:24:08.421 [pool-1-thread-10] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
-java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/111
+2017-03-02 10:48:24.539 [pool-1-thread-9] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
 	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
-	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:72) ~[classes/:na]
-	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:50) [test-classes/:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) [test-classes/:na]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
-2017-03-01 18:24:08.421 [pool-1-thread-10] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
-java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/111
+2017-03-02 10:48:24.539 [pool-1-thread-9] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
 	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
-	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:72) ~[classes/:na]
-	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:50) ~[test-classes/:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) ~[test-classes/:na]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
-2017-03-01 18:24:08.429 [pool-1-thread-7] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
-java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/111
+2017-03-02 11:05:07.658 [pool-1-thread-9] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
 	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
-	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:72) ~[classes/:na]
-	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:50) [test-classes/:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) [test-classes/:na]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
 	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
-2017-03-01 18:24:08.430 [pool-1-thread-7] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
-java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/111
+2017-03-02 11:05:19.028 [pool-1-thread-7] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
 	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
-	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:72) ~[classes/:na]
-	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:50) ~[test-classes/:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) [test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:05:19.028 [pool-1-thread-6] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) [test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:05:19.028 [pool-1-thread-10] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) [test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:05:07.658 [pool-1-thread-4] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) [test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:05:19.028 [pool-1-thread-8] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) [test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:06:24.103 [pool-1-thread-9] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:06:46.209 [pool-1-thread-7] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:06:33.879 [pool-1-thread-6] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:06:33.879 [pool-1-thread-10] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:07:13.077 [pool-1-thread-8] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:07:13.076 [pool-1-thread-4] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:44:15.221 [pool-1-thread-9] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) [test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:44:15.223 [pool-1-thread-3] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) [test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:44:15.224 [pool-1-thread-9] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:44:15.224 [pool-1-thread-3] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:44:15.237 [pool-1-thread-8] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) [test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:44:15.237 [pool-1-thread-8] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:44:15.242 [pool-1-thread-5] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) [test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:44:15.243 [pool-1-thread-5] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:44:15.246 [pool-1-thread-7] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) [test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:44:15.246 [pool-1-thread-7] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:44:15.257 [pool-1-thread-10] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) [test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:44:15.258 [pool-1-thread-10] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:44:15.265 [pool-1-thread-4] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) [test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:44:15.268 [pool-1-thread-4] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:44:15.273 [pool-1-thread-6] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) [test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:44:15.274 [pool-1-thread-6] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:56) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:46:20.630 [pool-1-thread-6] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) [test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:46:20.630 [pool-1-thread-4] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) [test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:46:20.630 [pool-1-thread-7] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) [test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:46:20.630 [pool-1-thread-9] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) [test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:46:20.630 [pool-1-thread-5] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) [test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:46:20.630 [pool-1-thread-10] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) [test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:46:20.630 [pool-1-thread-3] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) [test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:46:20.630 [pool-1-thread-1] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) [test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:46:20.630 [pool-1-thread-2] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) [test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:46:20.633 [pool-1-thread-6] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:46:20.633 [pool-1-thread-4] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:46:20.633 [pool-1-thread-5] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:46:20.633 [pool-1-thread-7] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:46:20.633 [pool-1-thread-10] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:46:20.633 [pool-1-thread-2] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:46:20.633 [pool-1-thread-9] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:46:20.633 [pool-1-thread-1] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:46:20.633 [pool-1-thread-3] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/payment
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:66) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:55:21.461 [pool-1-thread-2] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/paymentTest
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:62) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:65) [test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:55:21.463 [pool-1-thread-10] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/paymentTest
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:62) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:65) [test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:55:21.461 [pool-1-thread-4] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/paymentTest
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:62) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:65) [test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:55:21.461 [pool-1-thread-9] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/paymentTest
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:62) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:65) [test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:55:21.461 [pool-1-thread-8] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/paymentTest
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:62) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:65) [test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:55:21.461 [pool-1-thread-1] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/paymentTest
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:62) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:65) [test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:55:21.461 [pool-1-thread-7] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/paymentTest
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:62) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:65) [test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:55:21.461 [pool-1-thread-5] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/paymentTest
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:62) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:65) [test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:55:21.461 [pool-1-thread-6] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/paymentTest
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:62) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:65) [test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:55:21.465 [pool-1-thread-2] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/paymentTest
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:62) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:65) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:55:21.465 [pool-1-thread-9] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/paymentTest
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:62) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:65) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:55:21.465 [pool-1-thread-10] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/paymentTest
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:62) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:65) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:55:21.465 [pool-1-thread-4] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/paymentTest
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:62) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:65) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:55:21.465 [pool-1-thread-1] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/paymentTest
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:62) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:65) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:55:21.465 [pool-1-thread-8] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/paymentTest
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:62) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:65) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:55:21.466 [pool-1-thread-7] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/paymentTest
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:62) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:65) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:55:21.466 [pool-1-thread-5] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/paymentTest
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:62) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:65) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:55:21.466 [pool-1-thread-6] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/paymentTest
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:62) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:65) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:56:09.730 [pool-3-thread-2] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:59) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:56:09.731 [pool-3-thread-6] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:59) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:56:09.731 [pool-3-thread-1] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:59) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:56:09.731 [pool-3-thread-3] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:59) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:56:09.731 [pool-3-thread-8] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:59) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:56:09.731 [pool-3-thread-4] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:59) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:56:09.731 [pool-3-thread-10] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:59) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:56:09.730 [pool-3-thread-5] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:59) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 11:56:09.730 [pool-3-thread-7] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:59) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 13:45:59.304 [pool-3-thread-5] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:59) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 13:45:59.304 [pool-3-thread-6] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:59) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 13:45:59.304 [pool-3-thread-7] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:59) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 13:45:59.304 [pool-3-thread-8] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:59) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 13:45:59.304 [pool-3-thread-9] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:59) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 13:45:59.304 [pool-3-thread-10] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:59) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 13:45:59.304 [pool-3-thread-3] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:59) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 13:45:59.304 [pool-3-thread-4] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:59) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 13:45:59.304 [pool-3-thread-1] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:59) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:16:32.928 [pool-3-thread-9] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:16:32.928 [pool-3-thread-2] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:16:32.928 [pool-3-thread-3] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:16:32.928 [pool-3-thread-6] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:16:32.928 [pool-3-thread-7] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:16:32.928 [pool-3-thread-1] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:16:32.928 [pool-3-thread-4] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:16:32.928 [pool-3-thread-8] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:16:32.928 [pool-3-thread-5] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:18:14.568 [pool-3-thread-3] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:18:14.569 [pool-3-thread-8] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:18:14.569 [pool-3-thread-10] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:18:14.569 [pool-3-thread-6] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:18:14.569 [pool-3-thread-4] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:18:14.569 [pool-3-thread-9] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:18:14.569 [pool-3-thread-2] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:18:14.569 [pool-3-thread-1] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:18:14.568 [pool-3-thread-7] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:18:42.182 [pool-3-thread-9] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:18:42.182 [pool-3-thread-1] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:18:42.182 [pool-3-thread-8] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:18:42.183 [pool-3-thread-7] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:18:42.183 [pool-3-thread-10] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:18:42.183 [pool-3-thread-5] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:18:42.183 [pool-3-thread-4] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:18:42.183 [pool-3-thread-2] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:18:42.183 [pool-3-thread-3] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:19:25.442 [pool-3-thread-2] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:19:25.442 [pool-3-thread-6] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:19:25.442 [pool-3-thread-3] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:19:25.442 [pool-3-thread-9] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:19:25.442 [pool-3-thread-7] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:19:25.442 [pool-3-thread-10] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:19:25.442 [pool-3-thread-4] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:19:25.442 [pool-3-thread-1] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:19:25.442 [pool-3-thread-5] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalStateException: Cannot be started more than once
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.start(CuratorFrameworkImpl.java:237) ~[curator-framework-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.<init>(ZookeeperReentrantLock.java:33) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:58) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:22:28.288 [pool-3-thread-1] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/paymentTest
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:61) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:70) [test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:22:28.288 [pool-3-thread-7] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/paymentTest
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:61) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:70) [test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:22:28.288 [pool-3-thread-3] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/paymentTest
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:61) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:70) [test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:22:28.288 [pool-3-thread-4] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/paymentTest
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:61) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:70) [test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:22:28.289 [pool-3-thread-10] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/paymentTest
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:61) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:70) [test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:22:28.289 [pool-3-thread-9] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/paymentTest
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:61) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:70) [test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:22:28.289 [pool-3-thread-5] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/paymentTest
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:61) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:70) [test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:22:28.289 [pool-3-thread-8] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/paymentTest
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:61) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:70) [test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:22:28.292 [pool-3-thread-1] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/paymentTest
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:61) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:70) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:22:28.292 [pool-3-thread-7] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/paymentTest
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:61) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:70) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:22:28.292 [pool-3-thread-10] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/paymentTest
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:61) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:70) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:22:28.292 [pool-3-thread-3] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/paymentTest
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:61) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:70) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:22:28.292 [pool-3-thread-9] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/paymentTest
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:61) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:70) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:22:28.292 [pool-3-thread-4] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/paymentTest
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:61) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:70) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:22:28.292 [pool-3-thread-8] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/paymentTest
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:61) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:70) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:22:28.292 [pool-3-thread-5] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/paymentTest
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:61) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:70) ~[test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:22:28.295 [pool-3-thread-6] ERROR [com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock] - release zookeeper distribute lock error!
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/paymentTest
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:61) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:70) [test-classes/:na]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_111]
+2017-03-02 14:22:28.296 [pool-3-thread-6] ERROR [com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest] - EROOR 
+java.lang.IllegalMonitorStateException: You do not own the lock: /ROOT_LOCK/paymentTest
+	at org.apache.curator.framework.recipes.locks.InterProcessMutex.release(InterProcessMutex.java:140) ~[curator-recipes-2.9.1.jar:na]
+	at com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock.unlock(ZookeeperReentrantLock.java:61) ~[classes/:na]
+	at com.neutral.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLockTest.doSomthing(ZookeeperReentrantLockTest.java:70) ~[test-classes/:na]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_111]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_111]
