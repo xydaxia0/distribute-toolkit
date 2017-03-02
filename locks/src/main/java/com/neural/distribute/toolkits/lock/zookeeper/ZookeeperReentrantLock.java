@@ -24,17 +24,12 @@ public class ZookeeperReentrantLock implements DistributeLock{
      */
     private static final String ROOT_PATH = "/ROOT_LOCK/";
 
-    private final CuratorFramework client;
-
     private final InterProcessMutex lock;
 
     private final int intervalPeriod = 1000;
 
-    public ZookeeperReentrantLock(String zkAddress, String applicationName) {
-        RetryPolicy retryPolicy = new RetryForever(intervalPeriod);
-        client = CuratorFrameworkFactory.newClient(zkAddress, retryPolicy);
+    public ZookeeperReentrantLock(CuratorFramework client, String applicationName) {
         lock = new InterProcessMutex(client, ROOT_PATH + applicationName);
-        client.start();
     }
 
     /**

@@ -19,7 +19,7 @@
         <constructor-arg value="30"/>
     </bean>
 
-    <bean id="distributeLock" class="com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock">
+    <bean id="distributeLock" class="com.neural.distribute.toolkits.lock.zookeeper.ZookeeperReentrantLock" scope="prototype">
         <constructor-arg value="10.185.31.4:2181,10.185.31.4:2182,10.185.31.4:2183"/>
         <constructor-arg value="payment"/>
     </bean>

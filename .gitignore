@@ -8,3 +8,9 @@ target/
 .mymetadata
 bin/
 .idea/
+*log
+locks/logs/20170301/
+locks/src/main/java/com/neural/distribute/toolkits/lock/redis/
+locks/src/main/resources/beta/
+locks/src/main/resources/prod/
+locks/src/test/java/com/neutral/distribute/toolkits/lock/redis/
