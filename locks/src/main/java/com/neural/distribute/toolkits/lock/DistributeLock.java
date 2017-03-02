@@ -14,11 +14,11 @@ public interface DistributeLock {
      * @param timeUnit - 时间单位
      * @return - 获取锁结果
      */
-    boolean tryLock(Long timeOut, TimeUnit timeUnit);
+    boolean tryLock(Long timeOut, TimeUnit timeUnit) throws Exception;
 
     /**
      * 释放锁
      */
-    void unlock();
+    void unlock() throws Exception;
 
 }

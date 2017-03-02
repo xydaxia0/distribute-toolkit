@@ -1,20 +1,22 @@
 package com.neural.distribute.toolkits.lock.zookeeper;
 
 import com.neural.distribute.toolkits.lock.DistributeLock;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.curator.RetryPolicy;
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.CuratorFrameworkFactory;
 import org.apache.curator.framework.recipes.locks.InterProcessMutex;
 import org.apache.curator.retry.RetryForever;
 import org.springframework.beans.factory.annotation.Value;
-import sun.jvm.hotspot.debugger.proc.arm.ProcARMThread;
 
+import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 
 /**
  * 基于Zookeeper的可重入锁
  * Created by xavier on 2017/3/1.
  */
+@Slf4j
 public class ZookeeperReentrantLock implements DistributeLock{
 
     /**
@@ -22,17 +24,17 @@ public class ZookeeperReentrantLock implements DistributeLock{
      */
     private static final String ROOT_PATH = "/ROOT_LOCK/";
 
-    final private CuratorFramework client;
+    private final CuratorFramework client;
 
-    final InterProcessMutex lock;
+    private final InterProcessMutex lock;
 
-    @Value("${zookeeper.interval.period}")
-    private String intervalPeriod;
+    private final int intervalPeriod = 1000;
 
-    public ZookeeperReentrantLock(String zkAddress) {
-        RetryPolicy retryPolicy = new RetryForever(1000);
+    public ZookeeperReentrantLock(String zkAddress, String applicationName) {
+        RetryPolicy retryPolicy = new RetryForever(intervalPeriod);
         client = CuratorFrameworkFactory.newClient(zkAddress, retryPolicy);
-        lock = new InterProcessMutex(client, ROOT_PATH);
+        lock = new InterProcessMutex(client, ROOT_PATH + applicationName);
+        client.start();
     }
 
     /**
@@ -43,16 +45,28 @@ public class ZookeeperReentrantLock implements DistributeLock{
      * @return - 获取锁结果
      */
     @Override
-    public boolean tryLock(Long timeOut, TimeUnit timeUnit) {
-
-        return false;
+    public boolean tryLock(Long timeOut, TimeUnit timeUnit) throws Exception {
+        try {
+            log.info("lock start");
+            return lock.acquire(timeOut, timeUnit);
+        } catch (Exception e) {
+            log.error("get zookeeper distribute lock error!", e);
+            if (lock.isAcquiredInThisProcess()) lock.release();
+            throw e;
+        }
     }
 
     /**
      * 释放锁
      */
     @Override
-    public void unlock() {
-
+    public void unlock() throws Exception {
+        try {
+            log.info("start to release lock");
+            lock.release();
+        } catch (Throwable e) {
+            log.error("release zookeeper distribute lock error!", e);
+            throw e;
+        }
     }
 }
